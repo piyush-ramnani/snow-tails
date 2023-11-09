@@ -14,6 +14,12 @@ Currently, two official plugins are available:
         https://legacy.reactjs.org/docs/handling-events.html
     >
 
+    components:
+
+    <
+        https://www.hyperui.dev/
+    >
+
 #Configuration [package.json]
 vite + react
 tailwind css

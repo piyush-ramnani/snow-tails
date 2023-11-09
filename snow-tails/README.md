@@ -59,3 +59,7 @@ Nodemon
         Registration complete
         Email and whatsapp notification
     >
+
+# Problems | Fixes | Learnings
+
+-> All the static files are to be placed in the Public folder (That's how the browser picks static files in a react project)

@@ -20,14 +20,14 @@ const Home = () => {
   };
 
   return (
-    <section id="home" className="bg-gray-500 relative h-screen w-full">
+    <section id="home" className="bg-gray-500 -mt-8 relative h-screen w-full">
       <video
         ref={videoRef}
         className="absolute top-0 left-0 w-full h-full object-cover filter brightness-75"
-        src="../assets/sample1.mp4" // Replace with your video source
+        src="/assets/sample1.mp4" // Replace with your video source
       ></video>
       <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-white text-4xl">
-        <h1>Welcome to My Website</h1>
+        <h1>SnowTails Project</h1>
         <button
           onClick={toggleVideoPlayback}
           className="mt-4 bg-blue-500 text-white px-4 py-2 rounded"

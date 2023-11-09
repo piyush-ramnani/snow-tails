@@ -5,3 +5,28 @@
 html {
   scroll-behavior: smooth;
 }
+.nav-active {
+  font-weight: bold;
+  position: relative;
+
+  /* underline effect with transition */
+  &::after {
+    content: "";
+    display: block;
+    position: absolute;
+    bottom: -2px; /* thickness of underline */
+    left: 0;
+    width: 40%;
+    height: 2px; /* height of underline */
+    background-color: red;
+    transform: scaleX(0);
+    transform-origin: 0% 50%;
+    transition: transform 0.3s ease;
+  }
+
+  /* Apply the underline when active */
+  &:hover::after,
+  &::after {
+    transform: scaleX(1);
+  }
+}

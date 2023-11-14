@@ -5,6 +5,7 @@ import Cause from "./components/cause";
 import Tips from "./components/Tips";
 import Ambassodors from "./components/ambassodors";
 import About from "./components/About";
+import Contact from "./components/Contact";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         <Cause />
         <Tips />
         <Ambassodors />
+        <Contact />
       </div>
     </>
 

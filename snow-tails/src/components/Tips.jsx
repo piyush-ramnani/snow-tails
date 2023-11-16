@@ -2,8 +2,10 @@ import React from "react";
 
 const Tips = () => {
   return (
-    <section id="tips" className="bg-gray-500 relative h-screen w-full">
-      Tips
+    <section id="tips" className="bg-red h-screen w-full">
+      <div className="flex text-white text-bold items-center justify-center">
+        COMING SOON!
+      </div>
     </section>
   );
 };

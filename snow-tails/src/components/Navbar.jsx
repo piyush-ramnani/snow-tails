@@ -9,19 +9,19 @@ import {
 } from "react-scroll";
 
 const menuItems = [
-  { target: "home", label: "Home" },
-  { target: "about", label: "About race" },
-  { target: "rules", label: "Rules" },
-  { target: "cause", label: "Cause" },
-  { target: "tips", label: "Tips and Travel" },
-  { target: "ambassadors", label: "Ambassadors and Partners" },
-  { target: "contact", label: "Contact us" },
+  { target: "home", label: "HOME" },
+  { target: "about", label: "ABOUT RACE" },
+  { target: "rules", label: "RULES" },
+  { target: "cause", label: "CAUSE" },
+  { target: "tips", label: "TIPS AND TRAVEL" },
+  { target: "ambassadors", label: "AMBASSADORS AND PARTNERS" },
+  { target: "contact", label: "CONTACT US" },
 ];
 
 const Navbar = () => {
   return (
-    <nav className="sticky top-0 z-50 flex justify-between items-center py-4 px-6 backdrop-blur-lg backdrop-filter">
-      <div className="flex items-center space-x-4">
+    <nav className="sticky top-0 z-50 flex justify-between items-center py-5 px-6 backdrop-blur-lg backdrop-filter">
+      <div className="flex items-center space-x-5">
         {menuItems.map((item) => (
           <Link
             key={item.target}

@@ -30,16 +30,18 @@ Nodemon
     Functional
 
     <
-        Nav bar
-        video section
-        Iformation + registration
-        About + registration
-        Cause
-        Testimonials
+        ✅ Nav bar
+        ✅ video section
+        ✅ About
+        ✅ Cause
+        ✅ partners
+        ✅ Contact us
+        Ambassadors
         Travels and stay
-        Footer Registration section
-        partners
-        Contact us
+        Footer
+        Registration button
+        Home text
+        Overall spacing and styling
     >
 
     <

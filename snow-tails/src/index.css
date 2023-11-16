@@ -1,6 +1,19 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;600&display=swap");
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+nav {
+  font-family: "poppins", sans-serif;
+  font-size: small;
+  font-weight: 300;
+}
+
+body {
+  font-family: "poppins", sans-serif;
+  margin-top: -50px; /* Moves all the content slightly above due to navbar white space */
+}
 
 html {
   scroll-behavior: smooth;

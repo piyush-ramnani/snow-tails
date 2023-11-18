@@ -29,15 +29,23 @@ const Home = () => {
         loop
         muted
       ></video>
-      <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-white text-4xl">
-        <h1>SnowTails Project</h1>
-        {/* <button onClick={toggleVideoPlayback} className="mt-4">
-          {isVideoPlaying ? (
-            <img src="/assets/circle-pause-regular.svg" alt="Pause Icon" />
-          ) : (
-            <img src="/assets/circle-play-regular.svg" alt="Play Icon" />
-          )}
-        </button> */}
+
+      <div className="absolute top-1/4">
+        <div className="p-10">
+          <h1 className="text-8xl font-bold text-bloodred">FUR-TASTIC</h1>
+          <h1 className="text-8xl font-bold text-bloodred">FROST RUN</h1>
+          <p className="text-l mt-3 font-bold mb-2 text-white">
+            WORLD'S FIRST EVER SNOW MARATHON FOR DOGS
+          </p>
+          <p className="text-sm mt-3 mb-2 text-white">
+            <p>Get ready for more fun this fun and adventure this season.</p>
+            <p>Calling all pet parents to grab your furry baby</p>
+            <p>Because SNOW TAILS 2023 presents India's second snow race</p>
+          </p>
+          <p className="text-l mt-3 font-bold mb-2 text-white">
+            JOIN US IN THIS COOL AND HEARTWARMING EVENT.
+          </p>
+        </div>
       </div>
     </section>
   );

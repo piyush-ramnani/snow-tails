@@ -3,44 +3,45 @@ import Button from "./Button";
 
 const Contact = () => {
   return (
-    <section id="contact" className="bg-gray-400 h-[45vh] w-full">
-      <div className="flex flex-col">
-        <div className="flex">
-          <div className="flex-1 flex justify-around">
-            <div className="p-6 mr-20">
-              <h1 className="text-6xl font-bold text-bloodred">FUR-TASTIC</h1>
-              <h1 className="text-6xl font-bold text-bloodred">FROST RUN</h1>
-            </div>
+    <section id="contact" className="bg-red h-max w-full">
+      <div className="relative pt-[5%]">
+        <div className="px-[2%] mb-[-3%]">
+          <img src="/assets/contact-page.png"></img>
+        </div>
+        <div className="flex justify-between text-center w-full px-[1%] py-[3%] bg-gray-200">
+          <div className=" w-[50%] text-8xl font-bold text-bloodred">
+            FUR-TASTIC FROST RUN
           </div>
-          <div className="flex-1">
-            <div className=" flex-col">
-              <div className="p-3 ml-24">
-                <p className="text-sm mt-3 mb-2 text-white">
-                  <p>
-                    Get ready for more fun this fun and adventure this season.
-                  </p>
-                  <p>Calling all pet parents to grab your furry baby</p>
-                  <p>
-                    Because SNOW TAILS 2023 presents India's second snow race
-                  </p>
-                </p>
-              </div>
-              <div className="flex justify-center">
-                <Button />
-              </div>
+          <div className="w-[50%] flex flex-col items-center justify-between">
+            <p>
+              Get ready for more fun and adventure this season. Calling all pet
+              parents, grab your furry baby because SnowTails 2023 presents
+              India’s 2nd Snow Dog Race! Get ready for more fun and adventure
+              this season. Calling all pet parents, grab your furry baby because
+              SnowTails 2023 presents India’s 2nd Snow Dog Race!
+            </p>
+            <div>
+              <Button />
             </div>
           </div>
         </div>
-        <div className="flex-col flex justify-center items-center">
-          <div className="text-xs -my-2 text-center">
-            <div className="font-bold">
-              <p>Northern Escapes Outdoors Pvt. Ltd.</p>
-              <p>Sissu, Lahaul & Spiti</p>
-              <p>Himachal Pradesh – 175140</p>
-              <p>Contact Number: +91 9871511133</p>
-              <p>Email: snowtailslahaul@gmail.com</p>
-            </div>
-          </div>
+      </div>
+      <div className="flex flex-col items-center">
+        <div className="max-h-sm max-w-sm ">
+          <img
+            src="/assets/contact-page-2.png"
+            alt="paws image"
+            className=""
+          ></img>
+        </div>
+        <div className="flex flex-col text-center mb-[2%]">
+          <ul className="text-white">
+            <li>Northern Escapes Outdoors Pvt. Ltd.</li>
+            <li>Sissu, Lahaul & Spiti</li>
+            <li>Himachal Pradesh – 175140</li>
+            <li>Contact Number: +91 9871511133</li>
+            <li>Email: snowtailslahaul@gmail.com</li>
+          </ul>
         </div>
       </div>
     </section>

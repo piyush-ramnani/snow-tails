@@ -20,7 +20,7 @@ const menuItems = [
 
 const Navbar = () => {
   return (
-    <nav className="sticky top-0 z-50 flex justify-between items-center py-2 px-6 backdrop-blur-lg backdrop-filter">
+    <nav className="fixed top-0 z-50 flex justify-between items-center py-2 px-6 backdrop-blur-lg backdrop-filter w-screen overflow-x-hidden">
       <div className="flex items-center space-x-5">
         {menuItems.map((item) => (
           <Link

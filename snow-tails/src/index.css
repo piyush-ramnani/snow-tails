@@ -12,7 +12,7 @@ nav {
 
 body {
   font-family: "poppins", sans-serif;
-  margin-top: -50px; /* Moves all the content slightly above due to navbar white space */
+  /* Moves all the content slightly above due to navbar white space */
 }
 
 html {

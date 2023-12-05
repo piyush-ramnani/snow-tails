@@ -10,7 +10,7 @@ import Contact from "./components/Contact";
 function App() {
   return (
     <>
-      <div className="min-h-screen">
+      <div className="min-h-screen overflow-x-hidden">
         <Navbar />
         <Home />
         <About />

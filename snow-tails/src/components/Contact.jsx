@@ -1,4 +1,5 @@
 import React from "react";
+import Button from "./Button";
 
 const Contact = () => {
   return (
@@ -11,15 +12,22 @@ const Contact = () => {
               <h1 className="text-6xl font-bold text-bloodred">FROST RUN</h1>
             </div>
           </div>
-          <div className="flex-1 flex justify-around">
-            <div className="p-5 ml-24">
-              <p className="text-sm mt-3 mb-2 text-white">
-                <p>
-                  Get ready for more fun this fun and adventure this season.
+          <div className="flex-1">
+            <div className=" flex-col">
+              <div className="p-3 ml-24">
+                <p className="text-sm mt-3 mb-2 text-white">
+                  <p>
+                    Get ready for more fun this fun and adventure this season.
+                  </p>
+                  <p>Calling all pet parents to grab your furry baby</p>
+                  <p>
+                    Because SNOW TAILS 2023 presents India's second snow race
+                  </p>
                 </p>
-                <p>Calling all pet parents to grab your furry baby</p>
-                <p>Because SNOW TAILS 2023 presents India's second snow race</p>
-              </p>
+              </div>
+              <div className="flex justify-center">
+                <Button />
+              </div>
             </div>
           </div>
         </div>

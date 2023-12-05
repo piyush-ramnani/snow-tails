@@ -20,7 +20,7 @@ const menuItems = [
 
 const Navbar = () => {
   return (
-    <nav className="sticky top-0 z-50 flex justify-between items-center py-5 px-6 backdrop-blur-lg backdrop-filter">
+    <nav className="sticky top-0 z-50 flex justify-between items-center py-2 px-6 backdrop-blur-lg backdrop-filter">
       <div className="flex items-center space-x-5">
         {menuItems.map((item) => (
           <Link
@@ -37,8 +37,10 @@ const Navbar = () => {
           </Link>
         ))}
       </div>
-      <div className="text-white cursor-pointer">
-        <img src="/your-logo.png" alt="Logo" />
+      <div className="cursor-pointer">
+        <div className="h-11 w-11">
+          <img src="/assets/logo.png" alt="Logo" />
+        </div>
       </div>
     </nav>
   );

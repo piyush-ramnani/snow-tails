@@ -5,10 +5,10 @@ const Cause = () => {
     <section id="cause" className="bg-red flex h-screen w-full">
       <div className="flex-1 flex items-center justify-center">
         <div className="p-10">
-          <h2 className="text-6xl font-bold mb-2 text-bloodred">
+          <h2 className="text-5xl font-bold mb-2 text-bloodred">
             LET'S RUN FOR
           </h2>
-          <h2 className="text-6xl font-bold mb-2 text-white">COMPASSION</h2>
+          <h2 className="text-5xl font-bold mb-2 text-white">COMPASSION</h2>
           <p className="text-l mt-5 font-bold mb-2 text-white">
             LET'S ALL BELIEVE IN PROTECTING, PRESERVING AND NURTURING LIVES.
           </p>
@@ -27,12 +27,23 @@ const Cause = () => {
           </p>
         </div>
       </div>
-      <div className="flex-1 flex items-center justify-center">
-        <img
-          src="/path/to/your/image.jpg"
-          alt="Race Image"
-          className="max-w-full max-h-full object-cover"
-        />
+      <div className="flex-1 flex items-center justify-center ">
+        <div className="m-16 flex-col pt-16 ">
+          <div className=" flex justify-center relative right-24 top-8 ">
+            <img
+              src="/assets/cause-1.png"
+              alt="For cause image"
+              className="max-w-[50%] max-h-[50%] object-cover"
+            />
+          </div>
+          <div className="flex justify-center relative left-24 bottom-20 overflow-auto">
+            <img
+              src="/assets/cause-2.png"
+              alt="For cause image"
+              className="max-w-[50%] max-h-[50%] object-cover"
+            />
+          </div>
+        </div>
       </div>
     </section>
   );

@@ -1,4 +1,5 @@
 import React, { useState, useRef } from "react";
+import Button from "./Button";
 
 const Home = () => {
   // State to control video playback
@@ -18,7 +19,9 @@ const Home = () => {
       setIsVideoPlaying(!isVideoPlaying);
     }
   };
-
+  {
+    /* Absolute positioning used for the content, no flex box! */
+  }
   return (
     <section id="home" className="bg-gray-500 relative h-screen w-full">
       <video
@@ -46,6 +49,9 @@ const Home = () => {
             JOIN US IN THIS COOL AND HEARTWARMING EVENT.
           </p>
         </div>
+      </div>
+      <div className="absolute bottom-12 right-10 mb-3">
+        <Button />
       </div>
     </section>
   );

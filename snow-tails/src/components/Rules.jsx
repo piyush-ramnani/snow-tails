@@ -4,22 +4,22 @@ const Rules = () => {
   return (
     <section id="rules" className="bg-red flex h-screen w-full">
       {/* Left section with GIF/SVG */}
-      <div className="flex-1 flex items-center justify-center">
-        {/* Add your GIF or SVG here */}
-        {/* For example, using an image */}
-        <img
-          src="/path/to/your/gif-or-svg.gif"
-          alt="Rules Gif/SVG"
-          className="max-w-full max-h-full object-cover"
-        />
+      <div className="flex-1 flex justify-center">
+        <div className="mt-16 h-5/6 flex items-center justify-center">
+          <img
+            src="/assets/rules-to-follow.png"
+            alt="Rules image"
+            className="max-w-full max-h-full object-cover"
+          />
+        </div>
       </div>
 
       {/* Right section with heading and bullet points */}
       <div className="flex-1 flex items-center justify-center">
         <div className="p-10">
           <div className="flex">
-            <h2 className="text-6xl font-bold mb-2 text-white">RULES</h2>
-            <h2 className="text-6xl font-bold mb-2 ml-2 text-bloodred">
+            <h2 className="text-5xl font-bold mb-2 text-white">RULES</h2>
+            <h2 className="text-5xl font-bold mb-2 ml-2 text-bloodred">
               TO FOLLOW
             </h2>
           </div>

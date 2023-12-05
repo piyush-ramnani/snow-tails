@@ -9,7 +9,6 @@ import Contact from "./components/Contact";
 
 function App() {
   return (
-    //NavBar
     <>
       <div className="min-h-screen">
         <Navbar />

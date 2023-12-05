@@ -1,10 +1,10 @@
 import React from "react";
 
-const button = () => {
+const Button = () => {
   return (
     <div>
       <button
-        class="middle none center w-full rounded-lg bg-pink-500 py-3 px-6 font-sans text-xs font-bold uppercase text-white shadow-md shadow-pink-500/20 transition-all hover:shadow-lg hover:shadow-pink-500/40 focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none"
+        className="middle none center w-auto rounded-full bg-bloodred py-3 px-10 font-sans text-xs font-bold uppercase text-white shadow-sm shadow-pink-500/20 transition-all hover:shadow-lg hover:shadow-gray-900 focus:opacity-[0.65] focus:shadow-none active:opacity-[0.65] active:shadow-none disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none"
         data-ripple-light="true"
       >
         Register now
@@ -13,4 +13,4 @@ const button = () => {
   );
 };
 
-export default button;
+export default Button;

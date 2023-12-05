@@ -25,5 +25,4 @@ dist-ssr
 .eslintrc.cjs
 package-lock.json
 node_modules
-public
 

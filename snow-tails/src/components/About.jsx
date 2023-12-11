@@ -3,7 +3,7 @@ import Button from "./Button";
 
 const About = () => {
   return (
-    <section id="about" className="bg-red flex h-screen w-full">
+    <section id="about" className="bg-red flex h-max w-full">
       <div className="flex-1 flex items-center justify-center">
         <div className="flex-column py-4">
           <div className="p-10">

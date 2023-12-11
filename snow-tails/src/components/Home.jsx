@@ -45,13 +45,23 @@ const Home = () => {
             <p>Calling all pet parents to grab your furry baby</p>
             <p>Because SNOW TAILS 2023 presents India's second snow race</p>
           </p>
-          <p className="text-l mt-3 font-bold mb-2 text-white">
-            JOIN US IN THIS COOL AND HEARTWARMING EVENT.
-          </p>
+          {/* <div className="flex items-center">
+            <p className="text-l mt-3 font-bold mb-2 text-white">
+              JOIN US IN THIS COOL AND HEARTWARMING EVENT.
+            </p>
+            <div className="">
+              <Button />
+            </div>
+          </div> */}
         </div>
       </div>
-      <div className="absolute bottom-12 right-10 mb-3">
-        <Button />
+      <div className="absolute top-3/4 w-[100%] p-10 flex items-center justify-between">
+        <p className="text-l mt-3 font-bold mb-2 text-white">
+          JOIN US IN THIS COOL AND HEARTWARMING EVENT.
+        </p>
+        <div className="">
+          <Button />
+        </div>
       </div>
     </section>
   );

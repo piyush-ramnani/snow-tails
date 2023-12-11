@@ -2,9 +2,12 @@ import React from "react";
 
 const Cause = () => {
   return (
-    <section id="cause" className="bg-red flex h-screen w-full">
-      <div className="flex-1 flex items-center justify-center">
-        <div className="p-10">
+    <section
+      id="cause"
+      className="bg-red flex h-max w-full border border-white"
+    >
+      <div className="flex-1 border border-yellow-400">
+        <div className="flex-col justify-between px-10 py-20">
           <h2 className="text-5xl font-bold mb-2 text-bloodred">
             LET'S RUN FOR
           </h2>
@@ -27,8 +30,8 @@ const Cause = () => {
           </p>
         </div>
       </div>
-      <div className="flex-1 flex items-center justify-center ">
-        <div className="m-16 flex-col pt-16 ">
+      <div className="flex-1">
+        <div className="flex-col">
           <div className=" flex justify-center relative right-24 top-8 ">
             <img
               src="/assets/cause-1.png"
@@ -40,7 +43,7 @@ const Cause = () => {
             <img
               src="/assets/cause-2.png"
               alt="For cause image"
-              className="max-w-[50%] max-h-[50%] object-cover"
+              className="max-w-[50%] max-h-[50%]"
             />
           </div>
         </div>

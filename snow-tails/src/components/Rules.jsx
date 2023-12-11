@@ -2,21 +2,24 @@ import React from "react";
 
 const Rules = () => {
   return (
-    <section id="rules" className="bg-red flex h-screen w-full">
+    <section
+      id="rules"
+      className="bg-red py-16 flex w-full border border-white"
+    >
       {/* Left section with GIF/SVG */}
-      <div className="flex-1 flex justify-center">
-        <div className="mt-16 h-5/6 flex items-center justify-center">
+      <div className="flex-1 border border-yellow-400">
+        <div className="flex justify-center">
           <img
             src="/assets/rules-to-follow.png"
             alt="Rules image"
-            className="max-w-full max-h-full object-cover"
+            className="max-w-[50%] max-h-[60%] "
           />
         </div>
       </div>
 
       {/* Right section with heading and bullet points */}
-      <div className="flex-1 flex items-center justify-center">
-        <div className="p-10">
+      <div className="flex-1 flex justify-center border border-yellow-400 ">
+        <div className="px-10">
           <div className="flex">
             <h2 className="text-5xl font-bold mb-2 text-white">RULES</h2>
             <h2 className="text-5xl font-bold mb-2 ml-2 text-bloodred">

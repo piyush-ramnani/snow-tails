@@ -2,12 +2,9 @@ import React from "react";
 
 const Rules = () => {
   return (
-    <section
-      id="rules"
-      className="bg-red py-16 flex w-full border border-white"
-    >
+    <section id="rules" className="bg-red py-16 flex w-full">
       {/* Left section with GIF/SVG */}
-      <div className="flex-1 border border-yellow-400">
+      <div className="flex-1">
         <div className="flex justify-center">
           <img
             src="/assets/rules-to-follow.png"
@@ -18,13 +15,13 @@ const Rules = () => {
       </div>
 
       {/* Right section with heading and bullet points */}
-      <div className="flex-1 flex justify-center border border-yellow-400 ">
+      <div className="flex-1 flex justify-center items-center">
         <div className="px-10">
           <div className="flex">
-            <h2 className="text-5xl font-bold mb-2 text-white">RULES</h2>
-            <h2 className="text-5xl font-bold mb-2 ml-2 text-bloodred">
+            <h1 className="text-5xl font-bold mb-2 text-white">RULES</h1>
+            <h1 className="text-5xl font-bold mb-2 ml-2 text-bloodred">
               TO FOLLOW
-            </h2>
+            </h1>
           </div>
           <ul className="list-disc text-white">
             <li>

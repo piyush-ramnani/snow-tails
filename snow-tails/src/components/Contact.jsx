@@ -8,11 +8,13 @@ const Contact = () => {
         <div className="px-[2%] mb-[-3%]">
           <img src="/assets/contact-page.png"></img>
         </div>
-        <div className="flex justify-between text-center w-full px-[1%] py-[3%] bg-gray-200">
-          <div className=" w-[50%] text-8xl font-bold text-bloodred">
-            FUR-TASTIC FROST RUN
+        <div className="flex justify-between text-center w-full px-[1%] py-[2%] bg-gray-200">
+          <div className=" w-[50%] ">
+            <h1 className="text-8xl font-bold text-bloodred">
+              FUR-TASTIC FROST RUN
+            </h1>
           </div>
-          <div className="w-[50%] flex flex-col items-center justify-between">
+          <div className="w-[50%] flex flex-col items-center justify-between py-3">
             <p>
               Get ready for more fun and adventure this season. Calling all pet
               parents, grab your furry baby because SnowTails 2023 presents

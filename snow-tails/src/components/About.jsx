@@ -7,13 +7,13 @@ const About = () => {
       <div className="flex-1 flex items-center justify-center">
         <div className="flex-column py-4">
           <div className="p-10">
-            <h2 className="text-5xl font-bold mb-1 text-white">A WOOF CALL</h2>
-            <h2 className="text-5xl font-bold mb-1 text-bloodred">
+            <h1 className="text-5xl font-bold mb-1 text-white">A WOOF CALL</h1>
+            <h1 className="text-5xl font-bold mb-1 text-bloodred">
               TO ALL YOU LOVELY
-            </h2>
-            <h2 className="text-5xl font-bold mb-1 text-bloodred">
+            </h1>
+            <h1 className="text-5xl font-bold mb-1 text-bloodred">
               POOCH PARENTS
-            </h2>
+            </h1>
             <p className="text-l mt-5 font-bold mb-1 text-white">
               DO YOU KNOW DOGS REALLY, REALLY LOVE SNOW?
             </p>
@@ -33,7 +33,7 @@ const About = () => {
       </div>
 
       {/* Right side with an image */}
-      <div className="flex-1 flex items-center p-5">
+      <div className="flex-1 flex items-center p-2">
         <div className="m-10">
           <img
             src="/assets/about-race.png"

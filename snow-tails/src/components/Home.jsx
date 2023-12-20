@@ -35,16 +35,23 @@ const Home = () => {
 
       <div className="absolute top-1/4">
         <div className="p-10">
-          <h1 className="text-8xl font-bold text-bloodred">FUR-TASTIC</h1>
-          <h1 className="text-8xl font-bold text-bloodred">FROST RUN</h1>
-          <p className="text-l mt-3 font-bold mb-2 text-white">
-            WORLD'S FIRST EVER SNOW MARATHON FOR DOGS
-          </p>
-          <p className="text-sm mt-3 mb-2 text-white">
-            <p>Get ready for more fun this fun and adventure this season.</p>
-            <p>Calling all pet parents to grab your furry baby</p>
-            <p>Because SNOW TAILS 2023 presents India's second snow race</p>
-          </p>
+          <div className="w-[50%]">
+            <h1 className="text-8xl font-bold text-bloodred">FUR-TASTIC</h1>
+            <h1 className="text-8xl font-black text-bloodred">SNOW RACE</h1>
+            <p className="text-l mt-3 tracking-wide font-bold mb-2 text-white">
+              World's first ever snow race for dogs
+            </p>
+            <p className="text-sm mt-3 mb-2 text-white">
+              <p>
+                Get ready for a super fun Snow Race! Join our cool event where
+                dogs and their friends have a blast running in the snow. Hear
+                happy barks and see paw prints—it's a special celebration of
+                friends and snowy trails!
+              </p>
+              {/* <p>Calling all pet parents to grab your furry baby</p>
+            <p>Because SNOW TAILS 2023 presents India's second snow race</p> */}
+            </p>
+          </div>
           {/* <div className="flex items-center">
             <p className="text-l mt-3 font-bold mb-2 text-white">
               JOIN US IN THIS COOL AND HEARTWARMING EVENT.
@@ -56,8 +63,8 @@ const Home = () => {
         </div>
       </div>
       <div className="absolute top-3/4 w-[100%] p-10 flex items-center justify-between">
-        <p className="text-l mt-3 font-bold mb-2 text-white">
-          JOIN US IN THIS COOL AND HEARTWARMING EVENT.
+        <p className="text-l mt-3 text- font-bold mb-2 tracking-wide text-white">
+          Join us in this cool and heartwarming event!!!
         </p>
         <div className="">
           <Button />

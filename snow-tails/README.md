@@ -65,3 +65,9 @@ Nodemon
 # Problems | Fixes | Learnings
 
 -> All the static files are to be placed in the Public folder (That's how the browser picks static files in a react project)
+
+-> Heading Font: League Spartan ✅
+-> Other texts: Montserrat ✅
+-> Letter spacing should match figma
+-> Photos sections should be equal to text section (paddingm, marging, text size)
+-> Check out comments in Figma

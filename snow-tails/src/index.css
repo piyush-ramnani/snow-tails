@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=League+Spartan:wght@700&family=Montserrat:wght@400;700&family=Poppins:wght@100;300;600&display=swap");
 
 @tailwind base;
 @tailwind components;
@@ -10,9 +10,17 @@ nav {
   font-weight: 300;
 }
 
-body {
-  font-family: "poppins", sans-serif;
-  /* Moves all the content slightly above due to navbar white space */
+h1 {
+  font-family: "League Spartan", sans-serif;
+  font-weight: 700;
+  /* Add any additional styles for h1 */
+}
+
+h2,
+h3,
+p {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400; /* For h2, h3, and p */
 }
 
 html {

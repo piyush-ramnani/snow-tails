@@ -14,10 +14,10 @@ const Tips = () => {
       </div>
       <div className="flex-1 ">
         <div className="m-14 flex-col ">
-          <h2 className="text-5xl font-bold mb-1 text-bloodred">
+          <h1 className="text-5xl font-bold mb-1 text-bloodred">
             HOW TO REACH
-          </h2>
-          <h2 className="text-5xl font-bold mb-2 text-white">SISSU</h2>
+          </h1>
+          <h1 className="text-5xl font-bold mb-2 text-white">SISSU</h1>
           <p className="text-l mt-5 font-bold mb-1 text-white">
             Travelling and stay is important for your pooch to adjust in the
             cold weather before the race

@@ -43,3 +43,8 @@ This react project is my first attempt to try react and tailwind to create a Sin
 
 - Tailwind with ReactJS
 - Converting a figma file into a functional project
+
+# Deployment
+
+- GitHub Actions Workflow CI/CD : `.github/workflows/deploy.yml`
+- Create a secret to provide this to deployment file `Repo > settings > Secrets and Variables > New Variable`

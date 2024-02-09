@@ -3,7 +3,7 @@ import Home from "./components/Home";
 import Rules from "./components/Rules";
 import Cause from "./components/Cause";
 import Tips from "./components/Tips";
-import Ambassodors from "./components/ambassodors";
+import Ambassodors from "./components/Ambassodors";
 import About from "./components/About";
 import Contact from "./components/Contact";
 

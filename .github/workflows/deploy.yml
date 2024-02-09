@@ -16,7 +16,7 @@ jobs:
       - name: Change working directory
         run: cd snow-tails
       - name: Install dependencies
-        run: cd ../../snow-tails && npm install
+        run: cd snow-tails && npm install
       - name: Build project
         run: npm run build
       - name: Deploy to GitHub Pages

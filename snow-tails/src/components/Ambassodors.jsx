@@ -26,10 +26,10 @@ const Ambassodors = () => {
               those who follow.
             </p>
           </div>
-          <div className="flex items-center max-h-md max-w-xl">
+          <div className="flex items-center max-h-md max-w-xl mt-5">
             <img src="/assets/ambassador.png" alt="Captain Bhaloo" />
           </div>
-          <div className="flex items-center max-h-xs max-w-xs">
+          <div className="max-h-xs max-w-xs mt-12">
             <img src="/assets/ambassador-2.png" alt="snow-tails" />
           </div>
           <div>

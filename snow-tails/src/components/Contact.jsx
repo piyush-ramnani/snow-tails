@@ -4,7 +4,7 @@ import Button from "./Button";
 const Contact = () => {
   return (
     <section id="contact" className="bg-red h-max w-full">
-      <div className="relative pt-[5%]">
+      <div className="relative pt-[2%]">
         <div className="px-[2%] mb-[-3%]">
           <img src="/assets/contact-page.png"></img>
         </div>
